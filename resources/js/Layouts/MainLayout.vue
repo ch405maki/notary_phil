@@ -25,7 +25,10 @@
                 <a class="block text-teal-600" href="/">
                     <ApplicationLogo class="h-8"/>
                 </a>
-                <h1 class="font-times text-sm md:text-base lg:text-lg xl:text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#FFC400] uppercase font-medium">Arellano Law Fovndation</h1>            </div>
+                <h1 class="text-sm md:text-base lg:text-lg xl:text-lg text-white font-bold">
+                    NotaryPhil
+                </h1>            
+            </div>
             </div>
 
         <div class="md:flex md:items-center md:gap-12">
