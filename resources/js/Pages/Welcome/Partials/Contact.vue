@@ -8,7 +8,7 @@
                 class="lg:w-1/2 md:w-1/2 bg-gray-300  overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                 <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0"
                     marginwidth="0" scrolling="no"
-                    src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6906568880654!2d120.9925687736211!3d14.559674278080355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c97bafba42c3%3A0x7859c5febabe4837!2sArellano%20University%20School%20of%20Law!5e0!3m2!1sen!2sph!4v1719103813103!5m2!1sen!2sph"
                     style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
                 <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                     <div class="lg:w-1/2 px-6">

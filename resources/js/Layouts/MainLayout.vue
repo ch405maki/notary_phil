@@ -34,10 +34,11 @@
         <div class="md:flex md:items-center md:gap-12">
         <nav aria-label="Global" class="hidden md:block">
             <ul class="flex items-center gap-6 text-sm">
-                <HowItWork />
+                <Home />
+                <NotaryPublic />
+                <Services />
                 <Pricing />
                 <Contact />
-                <About />
                 <div>
                     <a href="#" class="bg-yellow-200 hover:bg-yellow-300 transition duration-300 py-3 px-5 rounded-md mr-2">Login</a>
                     <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white transition duration-300 py-3 px-4 rounded-md">Schedule an Appointment <i class="fa-solid fa-arrow-right"></i></a>
@@ -77,10 +78,11 @@
 <script setup>
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 import Footer from './Partials/Footer/Index.vue';
-import HowItWork from './Partials/Buttons/HowItWork.vue';
-import About from './Partials/Buttons/About.vue';
+import Home from './Partials/Buttons/Home.vue';
+import NotaryPublic from './Partials/Buttons/NotaryPublic.vue';
 import Contact from './Partials/Buttons/Contact.vue';
 import Pricing from './Partials/Buttons/Pricing.vue';
+import Services from './Partials/Buttons/Services.vue';
 </script>
 
 <style scoped>

@@ -1,7 +1,7 @@
 <template>
     <div class="group inline-block relative">
-    <button class="outline-none focus:outline-none py-2 text-white rounded-md flex items-center">
-    <span class="font-normal flex-1 hover:text-gray-300">How It Works</span>
+    <button @click="router.visit('/')" type="button" class="outline-none focus:outline-none py-2 text-white rounded-md flex items-center">
+    <span class="font-normal flex-1 hover:text-gray-300">Home</span>
     <span>
         <svg class="ml-[4px] fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-300 ease-in-out"
             xmlns="http://www.w3.org/2000/svg"
@@ -11,17 +11,16 @@
     </span>
     </button>
     <ul class="bg-white border rounded-md shadow-lg transform scale-0 group-hover:scale-100 absolute transition duration-300 ease-in-out origin-top min-w-52 mt-2">
-    <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Page 1</a>
-    </li>
-    <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
-        <a href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Page 2</a>
-    </li>
+        <li class="rounded-md px-2 py-2 transition duration-150 ease-in-out">
+            <a href="#" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Learn More</a>
+        </li>
     </ul>
 </div>
 </template>
 
 <script setup>
+    import { router } from '@inertiajs/vue3';
+
 </script>
 
 <style scoped>

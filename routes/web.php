@@ -13,6 +13,13 @@ Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+// Pricing
+Route::get('/pricing', function () {return Inertia::render('Pricing/Index');})->name('pricing.index');
+
+// Contacts
+Route::get('/contact', function () {return Inertia::render('Contact/Index');})->name('contact.index');
+
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
