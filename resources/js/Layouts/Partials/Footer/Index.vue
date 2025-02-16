@@ -1,83 +1,61 @@
 <template>
-    <footer class="bg-official-purple-300">
-        <div class="max-w-6xl mx-auto px-4 py-4 lg:py-8">
-        <button
-            @click="scrollToTop"
-            class="fixed bottom-4 right-4 flex items-center justify-center w-10 h-10 bg-purple-950 text-white rounded-full shadow-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 z-40"
-            >
-            <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v13m0-13 4 4m-4-4-4 4"/>
-            </svg>
-        </button>
-        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-            <div class="md:flex md:justify-between">
-                <div class="mb-6 md:mb-0">
-                    <div class="mb-6 md:mb-0 flex items-center space-x-4">
-                    <!-- AUSL Logo -->
-                    <img src="/images/logo/alfLogo.png" class="h-16 w-auto" alt="AUSL Logo" />
-
-                    <!-- Text Content -->
-                    <div class="text-slate-700">
-                        <span class="font-times self-center text-md md:text-md lg:text-lg xl:text-xl font-semibold whitespace-nowrap text-purple-900">
-                            Arellano Law Fovndation
-                        </span>
-                        <p class="text-sm md:text-sm lg:text-md xl:text-lg">Taft Avenue Corner Menlo Street, Pasay City, Metro Manila, Philippines</p>
-                        <p class="text-sm md:text-sm lg:text-md xl:text-lg">Tel. Nos. 8404-30 89 to 93</p>
-                    </div>
+    <footer class="border-t border-neutral-700/20 py-10 bg-purple-950">
+        <div class="mx-auto max-w-6xl px-2 sm:px-2 lg:px-6 w-full py-16">
+            <button
+                @click="scrollToTop"
+                class="fixed bottom-4 right-4 flex items-center justify-center w-10 h-10 bg-purple-500 text-white rounded-full shadow-lg hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 z-40"
+                >
+                <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v13m0-13 4 4m-4-4-4 4"/>
+                </svg>
+            </button>
+            <div class="flex flex-wrap items-center justify-between gap-10 md:items-start lg:flex-nowrap">
+            <div class="w-full sm:w-1/2 lg:w-1/3">
+                <h1 class="text-sm md:text-base lg:text-lg xl:text-lg text-white font-bold">
+                    NotaryPhil
+                </h1>  
+                <p class="my-2 text-sm text-white">
+                    Created for the new ways we live and work. We believe that everyone deserves easy access to notary services, no matter where they are in the world.
+                </p>
+            </div>
+            <div class="w-full md:w-2/3">
+                <div class="grid grid-cols-1 gap-4 text-sm sm:grid-cols-3 sm:gap-10 md:grid-cols-3">
+                <div>
+                    <h3 class="font-bold text-white">Product</h3>
+                    <ul class="mt-4 space-y-2 text-white">
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Customer Stories</a></li>
+                    </ul>
                 </div>
-
-                <div class="hidden sm:flex justify-center space-x-4 mt-6 items-center">
-                    <!-- Increase image size and make responsive -->
+                <div>
+                    <h3 class="font-bold text-white">Resources</h3>
+                    <ul class="mt-4 space-y-2 text-white">
+                    <li><a href="#">Forms</a></li>
+                    <li><a href="#">Guides and Tutorial</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    </ul>
                 </div>
-
+                <div>
+                    <h3 class="font-bold text-white">Company</h3>
+                    <ul class="mt-4 space-y-2 text-white">
+                    <li><a href="/privacy-policy">About Us</a></li>
+                    <li><a href="/privacy-policy">FAQ's</a></li>
+                    </ul>
                 </div>
-                <div class="grid grid-cols-3 justify-items gap-8 sm:gap-6 sm:grid-cols-3 px-2">
-                    <div>
-                        <h2 class="mb-4 text-xs md:text-sm lg:text-sm xl:text-sm font-semibold text-official-purple-900 uppercase">Quick Links</h2>
-                        <ul class="text-slate-700">
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline cursor-pointer text-xs md:text-sm lg:text-sm xl:text-sm">List 1</a>
-                            </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline cursor-pointer text-xs md:text-sm lg:text-sm xl:text-sm">List 2</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 class="mb-4 text-xs md:text-sm lg:text-sm xl:text-sm font-semibold text-official-purple-900 uppercase">Follow us</h2>
-                        <ul class="text-slate-700">
-                            <li class="mb-4 flex items-center">
-                                <a href="/contact/socials" class="text-xs md:text-sm lg:text-sm xl:text-sm hover:underline hover:text-blue-600 flex items-center">
-                                    <i class="mdi mdi-facebook text-blue-600 mr-2"></i>
-                                    <span>Facebook</span>
-                                </a>
-                            </li>
-                            <li class="mb-4 flex items-center">
-                                <a href="https://www.youtube.com/@AUSLofficial" class="text-xs md:text-sm lg:text-sm xl:text-sm hover:underline hover:text-red-600 flex items-center">
-                                    <i class="mdi mdi-youtube text-red-600 mr-2"></i>
-                                    <span>YouTube</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 class="mb-4 text-xs md:text-sm lg:text-sm xl:text-sm font-semibold text-official-purple-900 uppercase">Legal</h2>
-                        <ul class="text-slate-700">
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline text-xs md:text-sm lg:text-sm xl:text-sm">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div>
-
                 </div>
             </div>
-            <hr class="my-6 border-official-purple-800 sm:mx-auto dark:border-official-purple-900 lg:my-8" />
-            <div class="sm:flex sm:items-center sm:justify-between">
-                <span class="text-sm text-gray-500 text-center ">© 2025 <a href="#" class="hover:underline">ALF</a>. All Rights Reserved.
-                </span>
+            <div>
+                <h3 class="font-bold text-white">Try it Today</h3>
+                <p class="my-4 text-white text-sm mb-8">We're providing secure, reliable, and convenient notary services.</p>
+                <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white transition duration-300 py-3 px-4 rounded-md">Schedule an Appointment <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="mt-8 border-t border-purple-700 flex justify-between text-sm text-white">
+                <div class="mt-4">© 2025 NotaryPhil.com All rights reserved.</div>
             </div>
         </div>
-    </div>
     </footer>
 </template>
 

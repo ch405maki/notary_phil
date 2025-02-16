@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="lg:w-1/2 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                <h2 class="text-gray-700 text-sm mb-1 font-medium title-font">Have a questions in mind?</h2>
+                <h2 class="text-gray-700 text-sm mb-1 font-medium title-font">Let us help you.</h2>
                 <h1 class="font-extrabold text-gray-800 text-2xl lg:text-3xl xl:text-5xl">
                     <span class="inline-block">Send us a 
                     <span class="relative whitespace-nowrap text-gray-800">

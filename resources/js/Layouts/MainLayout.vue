@@ -2,7 +2,7 @@
     <header class="fixed top-0 left-0 w-full bg-purple-950 z-10 border-b border-purple-950">
     <!-- head navigation -->
     <div class="flex h-7 items-center justify-between border-b border-purple-800">
-    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 w-full">
+    <div class="mx-auto max-w-6xl px-2 sm:px-2 lg:px-6 w-full">
         <div class="flex w-full justify-between">
         <div class="flex">
             <div class="p-2">
@@ -22,9 +22,9 @@
     <div class="flex h-16 items-center justify-between">
         <div class="flex-1 md:flex md:items-center md:gap-12">
             <div class="flex items-center gap-4">
-                <a class="block text-teal-600" href="/">
+                <!-- <a class="block text-teal-600" href="/">
                     <ApplicationLogo class="h-8"/>
-                </a>
+                </a> -->
                 <h1 class="text-sm md:text-base lg:text-lg xl:text-lg text-white font-bold">
                     NotaryPhil
                 </h1>            

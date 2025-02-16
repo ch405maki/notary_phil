@@ -24,7 +24,7 @@
             </button>
             <ul class="bg-white border rounded-md shadow-lg absolute top-0 right-0 transition duration-300 ease-in-out origin-top-left min-w-40 mt-2">
             <li class="px-2 py-2 transition duration-150 ease-in-out">
-                <a href="" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Metro Manila</a>
+                <a :href="route('empty.404')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Metro Manila</a>
             </li>
             </ul>
         </li>
@@ -41,21 +41,21 @@
             </button>
             <ul class="bg-white border rounded-md shadow-lg absolute top-0 right-0 transition duration-300 ease-in-out origin-top-left min-w-40 mt-2">
                 <li class="px-2 py-2 transition duration-150 ease-in-out">
-                    <a href="" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Qualifications</a>
+                    <a :href="route('empty.404')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Qualifications</a>
                 </li>
                 <li class="px-2 py-2 transition duration-150 ease-in-out">
-                    <a href="" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Check List</a>
+                    <a :href="route('empty.404')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Check List</a>
                 </li>
             </ul>
         </li>
         <li class="px-2 py-2 transition duration-150 ease-in-out">
-            <a href="" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Forms</a>
+            <a :href="route('empty.404')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Forms</a>
         </li>
         <li class="px-2 py-2 transition duration-150 ease-in-out">
-            <a href="" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Publications</a>
+            <a :href="route('empty.404')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Publications</a>
         </li>
         <li class="px-2 py-2 transition duration-150 ease-in-out">
-            <a href="" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Notary FAQ's</a>
+            <a :href="route('empty.404')" class="block w-full text-left text-gray-600 hover:text-slate-900 font-normal cursor-pointer">Notary FAQ's</a>
         </li>
         </ul>
     </div>

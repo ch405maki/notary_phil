@@ -19,8 +19,34 @@
             </div>
 
             <div class="pb-10 overflow-hidden md:p-10 lg:p-0 sm:pb-0">
-            <img id="secure_img" class="transition-all duration-300 ease-in-out hover:scale-105 lg:w-full sm:mx-auto sm:w-4/6 sm:pb-12 lg:pb-0" src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/hero-img.png" alt="Awesome hero page image" width="500" height="488"/>
+                <img id="secure_img" 
+                class="slow-pulse transition-all duration-[4000ms] ease-[cubic-bezier(0.01,0,0.01,1)] scale-95 hover:scale-100 lg:w-full sm:mx-auto sm:w-4/6 sm:pb-12 lg:pb-0" 
+                src="/images/secure/data-security.png" 
+                alt="Awesome hero page image" 
+                width="500" 
+                height="488"/>
             </div>
         </div>
     </div>
 </template>
+
+<style scoped>
+@keyframes slowPulse {
+    0% {
+      transform: scale(0.95);
+      opacity: 0.9;
+    }
+    50% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.95);
+      opacity: 0.9;
+    }
+  }
+
+  .slow-pulse {
+    animation: slowPulse 4s ease-in-out infinite; /* 4s for a slower effect */
+  }
+</style>

@@ -1,4 +1,5 @@
 <template>
+<Head title="Pricing" />
 <MainLayout>
     <section class="bg-white max-w-6xl mx-auto px-8 py-4 lg:py-24">
         <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
@@ -55,12 +56,17 @@
                 class="flex flex-col p-6 mx-auto text-gray-900 bg-white xl:p-8">
                 <h3 class="mb-4 text-2xl font-semibold">Contracts or Agreements</h3>
                 <div class="grid grid-cols-2 grid-rows-2 mb-6 border border-gray-200">
-                    <div class="border border-gray-200 p-4">Preparation and Notarization of Simple Afidavits (Jurat)</div>
-                    <div class="border border-gray-200 p-4 font-semibold"><i class="fa-solid fa-peso-sign"></i> 1,000.00</div>
+                    <div class="border border-gray-200 p-4">
+                        <span>Preparation and Acknowledgement of Contracts or Agreement of Sale involving acts of conveyances of real and/or personal property.</span>
+                        <br><span class="italic"> (e.g. donations inter vivos or mortis causa, lease, assignment, considiration, value of mortgage, and foreclosure, antichresis, usufruct, extrajudicial partition, market value)</span>
+                    </div>
+                    <div class="border border-gray-200 p-4">
+                        <span class="font-semibold">Two Percent (2%) <i class="fa-solid fa-peso-sign"></i> 500.00</span> of the actual ammount of the contract of agreement, but not less than 
+                        <span class="font-semibold"><i class="fa-solid fa-peso-sign"></i> 1,500 </span>, whichever is higher.
+                    </div>
 
-                    <div class="border border-gray-200 p-4">Authentication of Documents or Statements</div>
-                    <div class="border border-gray-200 p-4"><span class="font-semibold"><i class="fa-solid fa-peso-sign"></i> 500.00</span> minimum or 
-                        <span class="font-semibold"><i class="fa-solid fa-peso-sign"></i> 200.00 </span> per page, whichever is higher.
+                    <div class="border border-gray-200 p-4">Preparation and Acknowledgement of deeds, contracts or agreements not involving any acts of conveyance of real and/or personal property.</div>
+                    <div class="border border-gray-200 p-4"><span class="font-semibold"><i class="fa-solid fa-peso-sign"></i> 1,500.00</span>
                     </div>
                 </div>
             </div>
@@ -70,5 +76,6 @@
 </template>
 
 <script setup>
+    import { Head } from '@inertiajs/vue3';
     import MainLayout from '@/Layouts/MainLayout.vue';
 </script>
