@@ -40,7 +40,7 @@
                 <Pricing />
                 <Contact />
                 <div>
-                    <a href="#" class="bg-yellow-200 hover:bg-yellow-300 transition duration-300 py-3 px-5 rounded-md mr-2">Login</a>
+                    <a href="/login" class="bg-yellow-200 hover:bg-yellow-300 transition duration-300 py-3 px-5 rounded-md mr-2">Login</a>
                     <a href="#" class="bg-purple-500 hover:bg-purple-600 text-white transition duration-300 py-3 px-4 rounded-md">Schedule an Appointment <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </ul>
