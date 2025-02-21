@@ -5,7 +5,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-use App\Http\Controllers\EmailController;
+use App\Http\Controllers\MessageController;
 
 use Illuminate\Support\Facades\Mail;
 
@@ -32,7 +32,7 @@ Route::middleware('auth')->group(function () {
 
 // Email
 Route::middleware('auth')->group(function () {
-    Route::get('/email', [EmailController::class, 'index'])->name('email.index');
+    Route::get('/messages', [MessageController::class, 'index'])->name('messages.index');
 });
 
 // 404
@@ -56,7 +56,7 @@ Route::get('/test-email', function () {
 
     Mail::raw($details['body'], function ($message) use ($details) {
         $message->from('admin@barangaybulanaocentro.com', 'NotaryPhil')
-                ->to('markmanuel0317@gmail.com')
+                ->to('jesacim322@envoes.com')
                 ->subject($details['subject']);
     });
 

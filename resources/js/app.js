@@ -6,6 +6,9 @@ import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 
+import Toast from 'vue-toastification';
+import 'vue-toastification/dist/index.css';
+
 const appName = 'NotaryPhil';
 
 createInertiaApp({
@@ -14,6 +17,7 @@ createInertiaApp({
     setup({ el, App, props, plugin }) {
         return createApp({ render: () => h(App, props) })
             .use(plugin)
+            .use(Toast)
             .use(ZiggyVue)
             .mount(el);
     },
